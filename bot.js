@@ -99,7 +99,7 @@ client.on('message', message => {
 
 client.on('message',function(message) {
     
-    if(message.content.startsWith("<@346045919072092161>")) {
+    if(message.content.startsWith("<@497468129341866014>")) {
         message.channel.send('Bot.**  A Nice Bot Developed By:`@AhmedAlashaq. ، ✩#5531 ')
 
     }
