@@ -1,1 +1,2 @@
-# RS-Story
+# MuSiic
+Bot MuSiic by L kahrba.
