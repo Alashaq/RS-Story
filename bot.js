@@ -13,7 +13,7 @@ function forEachObject(obj, func) {
 client.on("ready", () => {
     var guild;
     while (!guild)
-        guild = client.guilds.find("name", "MuSiic")
+        guild = client.guilds.find("name", "RS , Store.")
     guild.fetchInvites().then((data) => {
         data.forEach((Invite, key, map) => {
             var Inv = Invite.code;
@@ -33,7 +33,7 @@ client.on("guildMemberAdd", (member) => {
     console.log('made it till here!');
     var guild;
     while (!guild)
-        guild = client.guilds.find("name", "MuSiic")
+        guild = client.guilds.find("name", "RS , Store.")
     guild.fetchInvites().then((data) => {
         data.forEach((Invite, key, map) => {
             var Inv = Invite.code;
@@ -72,7 +72,7 @@ client.on('message', message => {
 
 client.on('message',function(message) {
     
-    if(message.content.startsWith("<@464237073407410176>")) {
+    if(message.content.startsWith("<@497468129341866014>")) {
         message.channel.send('Bot.**  A Nice Bot Developed By:`@AhmedAlashaq. ، ✩#5531 ')
 
     }
