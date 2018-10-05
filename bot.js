@@ -22,7 +22,7 @@ client.on("ready", () => {
     })
 })
 client.on("guildMemberAdd", (member) => {
-    let channel = member.guild.channels.find('name', 'chat');
+    let channel = member.guild.channels.find('name', 'bot');
     if (!channel) {
         console.log("!channel fails");
         return;
@@ -33,7 +33,7 @@ client.on("guildMemberAdd", (member) => {
     console.log('made it till here!');
     var guild;
     while (!guild)
-        guild = client.guilds.find("name", "RS , Store.")
+        guild = client.guilds.find("name", "bot")
     guild.fetchInvites().then((data) => {
         data.forEach((Invite, key, map) => {
             var Inv = Invite.code;
@@ -100,7 +100,7 @@ client.on('message', message => {
 client.on('message',function(message) {
     
     if(message.content.startsWith("<@497468129341866014>")) {
-        message.channel.send('Bot.**  A Nice Bot Developed By:`@AhmedAlashaq. ، ✩#5531 ')
+        message.channel.send(' This is Central Bot For Royal NetWork Server.')
 
     }
 });
